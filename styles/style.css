@@ -15,20 +15,26 @@ body {
 }
 
 .navbar{
-    
+	position: fixed;
     background-image: linear-gradient(to right, rgb(80, 0, 184), rgb(255, 0, 212));
-	padding: 15px;
-	position: fixed; 
+	padding: 15px;	 
 	width: 100%; 
 	top: 0;
 	left: 0;
-	z-index: 1000;  
+	z-index: 999;  
 }
 
 .card-body{
 	background: #ffffff;	
 }
 
+
+.logonassau{
+	display: flexbox;
+	justify-content: right;
+	width: 160px;
+    height: 50px;	
+}
 
 .logo{
     background-image: url("../img/ttg-logo.png");
@@ -96,7 +102,7 @@ body {
 
 .page-footer {
 	bottom: 0;
-        position: fixed;
+        position: relative;
         width: 100%;
         text-align: center;
 }
