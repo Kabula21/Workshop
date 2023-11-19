@@ -24,11 +24,6 @@ body {
 	z-index: 999;  
 }
 
-.card-body{
-	background: #ffffff;	
-}
-
-
 .logonassau{
 	display: flexbox;
 	justify-content: right;
@@ -52,7 +47,8 @@ body {
 
 .h6{
     text-align: center;
-    color: rgb(206, 206, 206);
+    color: rgb(223, 223, 223);
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
