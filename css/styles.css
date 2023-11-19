@@ -37,7 +37,7 @@ body {
 }
 
 .logo{
-    background-image: url("../img/ttg-logo.png");
+    background-image: url("img/ttg-logo.png");
     width: 160px;
     height: 50px;
     border-style: hidden;
